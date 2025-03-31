@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/* adicionar tema material */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+}
